@@ -1,0 +1,70 @@
+.wrap {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  font-family: 'source-sans-pro', helvetica;
+  font-weight: 100;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'source-sans-pro', helvetica;
+  font-weight: 100;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 92px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h4 a {
+  color: #35917C;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.email-form {
+}
+
+.email-form .email {
+  border-radius: 1px;
+  background: #F5F5F5;
+  border: 1px solid #9B9B9B;
+  font-family: 'source-sans-pro', helvetica;
+  font-size: 24px;
+  color: #9B9B9B;
+  line-height: 32px;
+  padding-left: 15px;
+  height: 56px;
+  width: 300px;
+  color: #4A4A4A;
+  font-weight: 700;
+}
+
+.email-form .subscribe-button {
+  background-color: #5FC9B1;
+  font-family: 'source-sans-pro', helvetica;
+  font-size: 24px;
+  color: #fff;
+  line-height: 32px;
+  border: 0;
+  font-weight: 700;
+  padding: 14px 40px;
+  cursor: pointer;
+  margin-left: 10px;
+}
