@@ -9,7 +9,7 @@ body {
   font-weight: 100;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: 'source-sans-pro', helvetica;
   font-weight: 100;
   line-height: 1.5em;
@@ -32,10 +32,19 @@ h4 {
   font-size: 18px;
 }
 
-h4 a {
+h4 a, h5 a {
   color: #35917C;
   text-decoration: none;
   font-weight: 700;
+}
+
+h5 a {
+  font-weight: normal;
+}
+
+.copyright {
+  font-size: 10px;
+  color: #727272;
 }
 
 .email-form {
